@@ -140,4 +140,4 @@ class Square:
 
     def reg_move(self, use_dt: bool = True):
         self.x += self.dir_x * Config.square_speed * (Config.dt if use_dt else 1 / FRAMERATE)
-        self.y += self.dir_y * Config.square_speed * (Config.dt if use_dt else 1 / FRAMERATE)
+        self.y += self.dir_y * Config.square_speed * (Config.dt if use_dt else 1 / FRAMERATE) 
